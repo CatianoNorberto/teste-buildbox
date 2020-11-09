@@ -3,54 +3,36 @@
 </p>
 
 <h3 align="center">
- aplicação do teste da firgun 
+ aplicação do teste da Buildbox It soluctions 
 </h3>
 
 <br>
 
 ## Descrição
 
-Aplicação de cadastro de pedidos, realiza cadastros de pedidos de usuários registrados no sistema, os mesmos poderão consultar e alterar seus dados. O admin apenas visualiza todos os cadastros feitos por esses usuários sem poder alterá-los já que não é o proprietário dos dados.
-A aplicação não  permite um novo cadastro  de um cpf ou cnpj já registrado no sistema, ou seja cada usuário poderá fazer apenas um pedido por cpf ou cnpj.
+Aplicação consiste em criar uma lista de posts onde o usuario vai poder ter a possíbilidade de adicionar e remover os dados que lhe foi pedido, armazenando-os e registrá-los no localStorage, ou também poderá descartar o tal post. Então implementei mais uma função de poder editar o post, quando o usuario notar que o seu post não foi enviado do jeito planejado.
 
-- NOTA : Já existe um usuário padrão admin cadastrado no banco de dados. com o email de acesso = admin@gmail.com e senha = admin.
+## FUNCINALIDADES
+* CRUD
+- Adicionar
+- Ler/Visualizar
+- Editar/Atualizar
+- Remover
 
 ## Tecnologias
 
-### Backend
-- Node.js
-- Express
-- Celebrate
-- Sequelize
-- MySql
-
 ### Frontend
 - React.js
-- Axios
-- Rockeseat/unform
-- Yup
 - Toastify
 
 ## Como usar
-- git clone https://github.com/Dikizeko-Oliveira/teste-firgun.git 
-### Backend
-
-```
-- cd backend.
-- code . ou abra a pasta backend no editor de texto.
-- yarn ou npm install.
-- yarn add sequelize ou npm install --save sequelize
-- npx sequelize db:create `**cria o banco de dados**`.
-abra a pasta db, localizada na pasta backend e importe o arquivo Dumpt_teste_firgun.sql para o banco de dados
-`**teste_firgun**` que acabaras de criar no passo anterior.
-- execute yarn dev ou npm run dev para startar o servidor
-```
+- git clone https://github.com/CatianoNorberto/teste-buildbox.git 
 
 ### Frontend
 
 ```
-- cd frontend
-- code . ou abra a pasta frontend no editor de texto
+- cd teste-buildbox
+- code . ou abra a pasta teste-buildbox no editor de texto ou algum terminal/linha de comando
 - yarn ou npm install
-- yarn start ou npm start para startar o sistema
+- yarn start ou npm start para startar o projeto
 ```
