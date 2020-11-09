@@ -14,7 +14,7 @@ Aplicação consiste em criar uma lista de posts onde o usuario vai poder ter a 
 
 A aplicação também faz o tratamento dos erros, não permitindo o envio sem o nome do autor e a mensagem.
 
-### FUNCINALIDADES
+#### FUNCINALIDADES
 ** CRUD
 - Adicionar
 - Ler/Visualizar
