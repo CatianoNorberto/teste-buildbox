@@ -12,8 +12,10 @@
 
 Aplicação consiste em criar uma lista de posts onde o usuario vai poder ter a possíbilidade de adicionar e remover os dados que lhe foi pedido, armazenando-os e registrá-los no localStorage, ou também poderá descartar o tal post. Então implementei mais uma função de poder editar o post, quando o usuario notar que o seu post não foi enviado do jeito planejado.
 
-## FUNCINALIDADES
-* CRUD
+A aplicação também faz o tratamento dos erros, não permitindo o envio sem o nome do autor e a mensagem.
+
+### FUNCINALIDADES
+** CRUD
 - Adicionar
 - Ler/Visualizar
 - Editar/Atualizar
